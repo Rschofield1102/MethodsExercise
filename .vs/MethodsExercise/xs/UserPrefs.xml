@@ -5,11 +5,16 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MethodsExercise/Program.cs">
+    <Files>
+      <File FileName="MethodsExercise/Program.cs" Line="25" Column="6" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="MethodsExercise" selected="True" />
+          <Node name="MethodsExercise">
+            <Node name="MethodsExercise" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>

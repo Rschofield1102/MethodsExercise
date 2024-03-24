@@ -1,13 +1,39 @@
 ﻿namespace MethodsExercise
 {
     public class Program
-    {
+    { 
+        public static int Sum(int num1,int num2)
+        {
+            var answer = num1 + num2;
+            return answer;
+        }
+
+        public static int Multiply(int num1, int num2)
+        {
+            return num1 * num2;
+        }
+
+        public static int Minus( int num1, int num2, int num3,int num4)
+        {
+            var answer = num1 + num2 + num3 + num4;
+            return answer;
+        }
+           
+
+
+
         static void Main(string[] args)
         {
-           // Name: Robert
-           // Favorite Color: Blue
-           // Favorite Animal: Dog
-           // Favorite Band: Any
+            _ = Sum(2, 4);
+            _ = Multiply(10, 2);
+            _ = Minus(1, 2, 3, 4);
+
+
+
+            // Name: Robert
+            // Favorite Color: Blue
+            // Favorite Animal: Dog
+            // Favorite Band: Any
 
 
             Console.WriteLine($"Hello - What is your first name?");
