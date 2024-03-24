@@ -15,7 +15,7 @@
 
         public static int Minus( int num1, int num2, int num3,int num4)
         {
-            var answer = num1 + num2 + num3 + num4;
+            var answer = num1 - num2 - num3 - num4;
             return answer;
         }
            
@@ -26,7 +26,7 @@
         {
             _ = Sum(2, 4);
             _ = Multiply(10, 2);
-            _ = Minus(1, 2, 3, 4);
+            _ = Minus(100, 25, 10, 5);
 
 
 
