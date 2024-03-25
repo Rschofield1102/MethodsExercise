@@ -10,6 +10,7 @@
 
         public static int Multiply(int num1, int num2)
         {
+            var answer = num1 * num2;
             return num1 * num2;
         }
 
@@ -24,9 +25,12 @@
 
         static void Main(string[] args)
         {
-            _ = Sum(2, 4);
-            _ = Multiply(10, 2);
-            _ = Minus(100, 25, 10, 5);
+            int answer1 = Sum(2, 4);
+            Console.WriteLine(answer1);
+            int answer2 = Multiply(10, 2);
+            Console.WriteLine(answer2);
+            int answer3 = Minus(100, 25, 10, 5);
+            Console.WriteLine(answer3);
 
 
 
@@ -47,6 +51,9 @@
 
             Console.WriteLine($"Good,and what is your favorite band?");
             var band = Console.ReadLine();
+
+            Console.WriteLine($"There was a man named {userName}. His favorite color is {color} ;" +
+                $"His favorite animal is {animal} and he likes {band} type of music.");
         }
     }
 }
