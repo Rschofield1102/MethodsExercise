@@ -35,25 +35,25 @@
 
 
             // Name: Robert
-            // Favorite Color: Blue
-            // Favorite Animal: Dog
-            // Favorite Band: Any
+            // Favorite Hobby: Gym
+            // Like to do:Travel
+            // Favorite country: Tenerfie
 
 
             Console.WriteLine($"Hello - What is your first name?");
             var userName = Console.ReadLine();
 
-            Console.WriteLine($"Hi, {userName}. What is your favorite color?");
-            var color = Console.ReadLine();
+            Console.WriteLine($"Hi, {userName}. What is your favorite hobby?");
+            var hobby= Console.ReadLine();
 
-            Console.WriteLine($"Okay {color}. Now what is your favorite animal?");
-            var animal = Console.ReadLine();
+            Console.WriteLine($"Okay {hobby}. Now what else do you like to do?");
+            var travel= Console.ReadLine();
 
-            Console.WriteLine($"Good,and what is your favorite band?");
-            var band = Console.ReadLine();
+            Console.WriteLine($"What is your favorite place that you have been to?");
+            var country = Console.ReadLine();
 
-            Console.WriteLine($"There was a man named {userName}. His favorite color is {color} ;" +
-                $"His favorite animal is {animal} and he likes {band} type of music.");
+            Console.WriteLine($"There was a man named {userName}. His favorite hobby is the {hobby} ;" +
+                $"He loves to {travel} and the best place he has been to is {country}");
         }
     }
 }
